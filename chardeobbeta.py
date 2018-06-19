@@ -7,7 +7,7 @@ print ("For pasting the char list, the input needs to appear as char(118)+char(1
 # This takes the users char list.
 first_list = input("Please paste your char list: ")
 
-# This splits up all of the individual chars into a list by separating at the "+ and the &. Expandable as needed".
+# This splits up all of the individual chars into a list by separating at the + and the &. Expandable as needed".
 second_list = re.split('\&+|\++', first_list)
 
 # This removes all of the extra characters with Regex, converts to ASCII and rebuilds the line.
