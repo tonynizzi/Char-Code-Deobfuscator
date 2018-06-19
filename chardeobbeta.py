@@ -1,4 +1,5 @@
 # This little program will take a list of char codes and convert to ASCII.
+# Natively compatible with Python3.
 # Input should appear like the following: char(108) + char(119) etc.
 import re
 
